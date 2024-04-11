@@ -1,4 +1,9 @@
-# Honours Project
+# Methods for Interpreting Machine Learning Techniques in Blood Smear Image Based Leukaemia Classification
+
+This code repository is part of a research article which explores the implementation of machine learning models using blood smear images to enhance diagnostic accuracy of leukaemia.
+
+The full paper is included in the repository in the "Research_Article" directory.
+
 
 ## Requirements to run
 This project was built with Python 3.11 along with the following packages:  
