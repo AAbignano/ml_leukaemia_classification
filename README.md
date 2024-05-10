@@ -42,7 +42,7 @@ just ignore _prepare_dataset2.py_ and _test_dataset2.py_ which are the only scri
 ## Running
 1. prepare_dataset1.py
 - Run this after _C-NMC_Leukemia.zip_ has been placed inside the _Datasets_ folder
-- Create a new subfolder called _dataset1_ from the train and preliminary test compositions
+- Creates a new subfolder called _dataset1_ from the train and preliminary test compositions
 - The final test set composition is not used since the ground truth is not provided with the images
 
 2. train_model.py
@@ -62,7 +62,7 @@ just ignore _prepare_dataset2.py_ and _test_dataset2.py_ which are the only scri
 
 5. prepare_dataset2.py
 - Run this after the _ALL_IDB1_ folder has been placed inside the _Datasets_ folder
-- Creates sliding windows from each image and label them cancerous and noncancerous depending if the centroid of the any cancerous cells are present in the image
+- Creates sliding windows from each image and labels them cancerous and noncancerous depending if the centroid of the any cancerous cells are present in the image
 
 6. test_dataset2.py
 - This does the same as _test_dataset1.py_ but using _dataset2_
